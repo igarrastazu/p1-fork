@@ -1,0 +1,21 @@
+git clone
+Este comando copia un repositorio ya existente en el directorio actual.
+En esta práctica es utilizado para clonar el repositorio https://github.com/gitt-3-pat/p1, que posteriormente sirvió para hacer un fork de este repositorio.
+Una vez hecho el fork, se volvió a utilizar para clonarlo en el repositorio local.
+
+git status
+Git status te informa del estado actual de repositorio comparándolo tanto con el directorio de trabajo como con el repositorio local. 
+(para comprobar si has subido los cambios realizados al repositorio local)
+
+git add
+El comando git add se utiliza para agregar los cambios especificados al área de preparación. Estos cambios se preparan para hacer el "commit".
+
+git commit
+Sube el área de preparación al directorio de trabajo actual (al repositorio local)
+
+git push
+Sube al repositorio indicado el repositorio local (origin). git push origin nombre_repositorio
+
+git checkout
+Se utiliza para cambiar a la rama indicada. Es decir, si hacemos una rama paralela para hacer un cambio en específica, para cambiar entre ramas será necesario
+introducir git checkout nombre_repositorio
